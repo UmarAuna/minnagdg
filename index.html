@@ -1,0 +1,320 @@
+<!--
+Au<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>GDG Minna</title>
+ <link rel="shortcut icon" href="images/gdg2.png" type="image/x-icon">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="WildWood Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery-1.11.1.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---End-smoth-scrolling---->
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	nav: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true,
+      });
+    });
+	
+  </script>
+
+ 
+</head>
+<body>
+		<!--start-header-section-->
+			<div class="header">
+				<div class="container">
+					<div class="header-top">
+						<div class="logo">
+						   <a href="#" title="Welcome to GDG Minna Web Site">
+						   <img src="images/gdg3.png" ></a>
+
+						</div>
+					</div>
+					<div class="header-bottom">
+						<div class="top-menu">
+							<span class="menu"><img src="images/nav.png" alt=""/></span>
+							
+								<ul class="cl-effect-16">
+									<li class="active"><a href="index.html" data-hover="HOME">HOME</a></li>
+										<li><a href="ourbusiness.html" data-hover="ABOUT US">ABOUT US</a></li>
+											<li><a href="timbers.html" data-hover="PHOTO GALLERY" >PHOTO GALLERY</a></li>
+												<li><a href="services.html" data-hover="EVENTS">EVENTS</a></li>
+													<li><a href="environment.html" data-hover="ORGANIZERS">ORGANIZERS</a></li>
+													<li><a href="mail.html" data-hover="CONTACT US">CONTACT US</a></li>
+						</div>
+						
+						<script>
+							 $("span.menu").click(function(){
+							 $(".top-menu ul").slideToggle("slow" , function(){
+							 });
+							 });
+							 </script>
+							<!-- //script for menu -->
+						<div class="clearfix"></div>
+						</div>
+				</div>
+			</div>
+		<!--end header-section-->
+		<div class="header-slider">
+		<div class="slider">
+			<div class="callbacks_container">
+			  <ul class="rslides" id="slider">
+				<li>
+				  <img src="images/a.jpg" alt="">
+				 
+				</li>
+				<li>
+				<img src="images/b.jpg" alt="">
+					
+				</li>
+				<li>
+				  <img src="images/c.jpg" alt="">
+					
+				</li>
+				<li>
+				  <img src="images/d.jpg" alt="">
+					
+				</div>
+				</li>
+			</ul>
+		  </div>
+	  </div>
+	 </div>
+		<div class="welcome-section">
+			<div class="container">
+				<div class="welcome-grids">
+					<div class="col-md-6 welcome-grid">
+						<h3>Google Developers Group</h3>
+						<p>Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology; everything from the Android, App Engine, and Google Chrome platforms, to product APIs like the Maps API, YouTube API and Google Calendar API. GDG Minna is one of the 537 chapters running in 103 countries around the world.</p>
+							<p class="welcome-text"> We are a place to learn about Google Technologies and Tools for developers, place to see what local companies and developers are doing with these technologies and A place to meet cool and smart people in tech but most notably GDG is Focused on developers and educational technical content. </p>  
+								<h3><a href="http://developers.google.com/groups"><span class="label label-warning">more</span></a></h3>
+					</div>
+						<div class="col-md-6 welcome-slider">
+						<ul id="flexiselDemo3">
+				 <li>
+					<div class="biseller-column">
+							<div class="banner-grid">
+							  <img src="images/indexslide1.jpg" class="img-responsive" alt="/">
+							</div>
+					</div>
+				</li>
+				<li>
+					<div class="biseller-column">
+							<div class="banner-grid">
+							    <img src="images/indexslide2.jpg" class="img-responsive" alt="/">
+							</div>
+						</div>
+				</li>
+				<li>
+					<div class="biseller-column">
+							<div class="banner-grid">
+							<img src="images/indexslide3.jpg" class="img-responsive" alt="/">
+							</div>
+					</div>
+				</li>
+			</ul>
+		  </div>
+			<script type="text/javascript">
+				 $(window).load(function() {
+					$("#flexiselDemo3").flexisel({
+						visibleItems:2,
+						animationSpeed: 1000,
+						autoPlay: true,
+						autoPlaySpeed: 3000,    		
+						pauseOnHover: true,
+						enableResponsiveBreakpoints: true,
+				    	responsiveBreakpoints: { 
+				    		portrait: { 
+				    			changePoint:480,
+				    			visibleItems:2
+				    		}, 
+				    		landscape: { 
+				    			changePoint:640,
+				    			visibleItems:2
+				    		},
+				    		tablet: { 
+				    			changePoint:768,
+				    			visibleItems:2
+				    		}
+				    	}
+				    });
+				    
+				});
+			   </script>
+			   <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+			<div class="new-section">
+				<div class="new-grids">
+					<div class="col-md-6 left-grid">
+						<div class="top-grid">
+							<h3>news</h3>
+								<div class="col-md-6 new-grid">
+									<h5>Lorem ipsum dolor seradipiscing elit wide range of wood products</h5>
+										<h6>09 may 2015</h6>
+											<p>Santos Timber Company manufactures a wide range of wood products with a focus on decorative wood panels.</p>
+											<h3><a href="#"><span class="label label-success">Register</span></a></h3>
+								</div>
+									<div class="col-md-6 new-grid">
+										<h5>Lorem ipsum dolor seradipiscing elit wide range of wood products</h5>
+											<h6>19 may 2015</h6>
+											<p>Santos Timber Company manufactures a wide range of wood products with a focus on decorative wood panels.</p>
+										<h3><a href="#"><span class="label label-success">More</span></a></h3>
+
+									</div>
+							<div class="clearfix"></div>
+						</div>
+						<div class="bottom-grid">
+							<h3>contact</h3>
+								<div class="col-md-6 contact">
+								<form>
+									<input type="text" placeholder="Your Name" required="">
+									<input type="text" placeholder="Your Email" required="">
+									<textarea placeholder="Your Comment" required=""></textarea>
+									<input type="submit" value="SEND">
+								</form>
+	
+								</div>
+									<div class="col-md-6 address">
+										<p>No 28 Zone C Farm Centre Tunga Minna, Niger State</p>
+											<h5>Phone Numbers</h5>
+												<p>+2347063055189</p>
+												<p>+2348183969048</p>
+													<p>gdg-minna@googlegroups.com</p>
+														<div class="social-icon">
+															<h5>follow us</h5>
+																		 <a href="#" title="Follow us on our Plus page"> <img src="images/plus.png" height="30" width="30"></a>
+																		 <a href="#" title="Join our Facebook Page"> <img src="images/face.png" height="30" width="30"></a>
+																		 <a href="#" title="Join our Membership page and click am a member"> <img src="images/gdeveloped.png" height="30" width="30"></a>
+																		 <a href="#" title="Follow our Tweeter Page"> <img src="images/tweet.png" height="30" width="30"></a>
+														</div>
+									</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+					<div class="col-md-6 right-grid">
+					<div class="top-grid1">
+						<div class="col-md-6 right-img">
+							<a href="http://developers.android.com/" class="mask">
+				     <img src="images/android1.png" class="img-responsive zoom-img" alt="">
+				</a>
+							</div>
+						<div class="col-md-6 right-img">
+							<a href="http://cloud.google.com/" class="mask">
+				     <img src="images/cloud.jpg" class="img-responsive zoom-img" alt="">
+				</a>
+							</div>
+							<div class="clearfix"></div>
+					</div>
+						<div class="google-map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d491.7580734316442!2d6.5611369155875225!3d9.58970134213068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104c71ebed4417a5%3A0x078400666ea165cb!2sSaidu+residence%2C+Minna!5e0!3m2!1sen!2sng!4v1436652224252" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+							</div>
+						</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="product-section">
+	<div class="container">
+	<div class="col-md-3 product">
+	<h4>product</h4>
+	<ul>
+	<li>Android</li>
+	<li>Cloud</li>
+	<li>Chrome</li>
+	<li>Chrome Cast</li>
+	<li>Maps API</li>
+	<li>Youtube API</li>
+	</ul>
+	</div>
+	<div class="col-md-3 product">
+	<h4>technology</h4>
+	<ul>
+	<li>New Listing Sign-Up</li>
+	<li>Consectetur adipiscing</li>
+	<li>Integer molestie lorem</li>
+	<li>Facilisis in pretium nisl</li>
+	<li>Consectetur adipiscing</li>
+	<li>Lorem ipsum dolor sit</li>
+	</ul>
+	</div>
+	<div class="col-md-3 product">
+	<h4>information</h4>
+	<ul>
+	<li>Press</li>
+	<li>Terms</li>
+	<li>Clients</li>
+	<li>Partners</li>
+	<li>Reseller</li>
+	<li>Support</li>
+	</ul>
+	</div>
+	<div class="col-md-3 product">
+	<h4>new solutions</h4>
+	<ul>
+	<li>New Listing Sign-Up</li>
+	<li>Consectetur adipiscing</li>
+	<li>Integer molestie lorem</li>
+	<li>Facilisis in pretium nisl</li>
+	<li>Consectetur adipiscing</li>
+	<li>Lorem ipsum dolor sit</li>
+	</ul>
+	</div>
+	<div class="clearfix"></div>
+	</div>
+	</div>
+	<div class="footer-section">
+						<div class="container">
+							<div class="footer-top">
+						<p>Copyright &copy; 2015 <span>GDG Minna.</span> All rights reserved | Design by <a href="https://plus.google.com/b/113224920428716041640/+GdgminnaBlogspot/posts">GDG Minna Web Team</a></p>
+									</div>
+							<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+
+
+</body>
+</html> 
